@@ -13,7 +13,7 @@ class MAX6675 {
   //  uint8_t readError();
  private:
   int8_t _sclk, _miso, _cs;
-  uint8_t spiread8(void);
+  uint8_t spiread(void);
 };
 
 
