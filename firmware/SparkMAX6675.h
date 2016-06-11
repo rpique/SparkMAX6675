@@ -5,7 +5,7 @@
 
 class MAX6675 {
  public:
-  MAX6675(int8_t SCLK, int8_t CS, int8_t MISO);
+  MAX6675(int8_t sclk_pin, int8_t cs_pin, int8_t miso_pin);
 
   double readInternal(void);
   double readCelsius(void);
