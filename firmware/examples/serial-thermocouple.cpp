@@ -28,9 +28,7 @@ void loop() {
   
    Serial.print("C = "); 
    Serial.println(thermocouple.readCelsius());
-   Serial.print("F = ");
-   Serial.println(thermocouple.readFahrenheit());
- 
+
    delay(1000);
 }
 
