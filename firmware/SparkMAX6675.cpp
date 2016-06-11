@@ -2,7 +2,7 @@
 // www.ladyada.net/learn/sensors/thermocouple
 
 #include "math.h"
-#include "SparkMAX5575/SparkMAX5575.h"
+#include "SparkMAX6675.h"
 
 MAX6675::MAX6675(int8_t sclk_pin, int8_t cs_pin, int8_t miso_pin) {
   _sclk = sclk_pin;
