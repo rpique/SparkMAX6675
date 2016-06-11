@@ -1,0 +1,7 @@
+{
+  "name": "SparkMAX31855",
+  "author": "Roger",
+  "license": "BSD",
+  "version": "0.0.2",
+  "description": "MAX6675 Library ported to Spark."
+}
