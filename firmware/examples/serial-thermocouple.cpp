@@ -2,7 +2,7 @@
 // www.ladyada.net/learn/sensors/thermocouple
 
 #include "math.h"
-#include "SparkMAX6675/max6675.h"
+#include "SparkMAX6675/SparkMAX6675.h"
 
 int thermoCLK = A3;
 int thermoCS = A2;
